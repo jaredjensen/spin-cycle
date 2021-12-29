@@ -1,0 +1,48 @@
+html, body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-size: 50px;
+}
+
+body {
+  margin-top: 2rem;
+}
+
+html .countdown {
+  display: none;
+}
+
+html .workout {
+  display: block;
+}
+
+html.in-countdown .countdown {
+  display: block;
+}
+
+html.in-countdown .workout {
+  display: none;
+}
+
+.spec {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.spec-small {
+  color: #999;
+  font-size: 1rem;
+}
+
+.clock {
+  margin: 2rem auto 0;
+}
+
+.clock td {
+  padding: 0 0.3rem;
+}
+
+.clock td:nth-child(2) {
+  min-width: 4rem;
+}
